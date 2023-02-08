@@ -76,7 +76,7 @@ checkmark_label=Label(text=" ", fg= GREEN,bg=YELLOW, font=(FONT_NAME, 20, "bold"
 checkmark_label.grid(column=1, row=3)
 
 start_button = Button(text="Start",command=start_timer)
-start_button.grid(column=0, row=2 )
+start_button.grid(column=0, row=2)
 
 reset_button = Button(text="Reset", command=reset_timer)
 reset_button.grid(column=2, row=2)
