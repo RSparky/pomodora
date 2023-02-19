@@ -41,8 +41,6 @@ def start_timer():
         timer_label.config(text="Work", fg=GREEN)
         count_down(work_sec)
         
-    
-
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
 def count_down(count):
     count_min = math.floor(count/60)
@@ -67,7 +65,6 @@ tomato_img = PhotoImage(file = "tomato.png")
 canvas.create_image(100, 112,image=tomato_img)
 timer_text = canvas.create_text(100,130, text ="00:00", fill="white", font =(FONT_NAME, 35, "bold"))
 canvas.grid(column=1, row=1)
-
 
 timer_label=Label(text="Timer", fg=GREEN,bg=YELLOW, font=(FONT_NAME, 30, "bold"))
 timer_label.grid(column=1, row=0)
