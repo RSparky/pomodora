@@ -11,7 +11,6 @@ SHORT_BREAK_MIN = 5
 LONG_BREAK_MIN = 20
 reps = 0
 timer = None
-
 # ---------------------------- TIMER RESET ------------------------------- # 
 def reset_timer():
     count_min=0
@@ -55,7 +54,6 @@ def count_down(count):
         checkmark_label.config(text="✔" * num_of_checks)
 
 # ---------------------------- UI SETUP ------------------------------- #
-
 window = Tk()
 window.title("Pomodoro")
 window.config(padx=100, pady=50, bg=YELLOW)
