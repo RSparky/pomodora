@@ -77,6 +77,4 @@ start_button.grid(column=0, row=2)
 reset_button = Button(text="Reset", command=reset_timer)
 reset_button.grid(column=2, row=2)
 
-
-
 window.mainloop()
