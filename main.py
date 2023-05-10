@@ -40,6 +40,7 @@ def start_timer():
         timer_label.config(text="Work", fg=GREEN)
         count_down(work_sec)
         
+            
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
 def count_down(count):
     count_min = math.floor(count/60)
