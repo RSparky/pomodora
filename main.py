@@ -39,8 +39,7 @@ def start_timer():
         #if it's the 1st, 3rd, 5th, 7th rep:
         timer_label.config(text="Work", fg=GREEN)
         count_down(work_sec)
-        
-            
+         
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
 def count_down(count):
     count_min = math.floor(count/60)
